@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get('/', (_req, res) => {
-  res.json({ service: 'notes-app', health: 'ok' });
+  res.json({ service: 'notes-app', health: 'ok' });;;
 });
 
 app.get('/notes', (_req, res) => {
